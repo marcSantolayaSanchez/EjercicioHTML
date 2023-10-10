@@ -1,0 +1,31 @@
+body{
+    margin: 0%;
+
+}
+
+#ICONO{
+    background-color: #0A91AB;
+
+
+    padding: 1;
+
+}
+
+img{
+    margin-left: 41%;
+    display: block;
+    width: 10%;
+    padding: 4%;
+
+}
+
+#Links{
+
+    background-color: #FFC045;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding: 1%;
+    font-family: 'Kanit','Maven Pro','Helvetica','Arial','sans-serif';
+
+}
