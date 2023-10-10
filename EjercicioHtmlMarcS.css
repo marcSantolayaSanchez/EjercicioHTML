@@ -12,14 +12,14 @@ body{
 }
 
 img{
-    margin-left: 41%;
+    margin-left: 33%;
     display: block;
-    width: 10%;
+    width: 30%;
     padding: 4%;
 
 }
 
-#Links{
+#TOP{
 
     background-color: #FFC045;
     display: flex;
@@ -27,5 +27,17 @@ img{
     flex-direction: row;
     padding: 1%;
     font-family: 'Kanit','Maven Pro','Helvetica','Arial','sans-serif';
+    
+}
+
+#Links{
+    
+    
+
+}
+
+#Links:hover{
+    color: #0A91AB;
+    
 
 }
