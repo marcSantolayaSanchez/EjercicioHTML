@@ -11,6 +11,11 @@ body{
 
 }
 
+#subtitulo{
+    padding-left: 2%;
+
+}
+
 img{
     margin-left: 33%;
     display: block;
@@ -19,6 +24,7 @@ img{
     padding: 4%;
 
 }
+
 
 #top{
 
@@ -52,7 +58,8 @@ h3{
 
 #flex{
     display: flex;
-    
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 #juego{
@@ -84,17 +91,21 @@ h3{
 }
 
 #info{
-    text-align: right;
-    border-top: 10%;
-    border-style:hidden;
-    border-top-left-radius: 14px;
-    border-top-right-radius: 14px;
-    margin: 3%;
-    border-color: #FFC045;
-    border-radius:  4px;
-
+    padding: 10px 20px;
+    background-color: #FFC045;
+    color:black;
+    text-decoration: none;
+    border-radius: 5px;
 
     
+}
+
+
+#infoborde{
+
+    display:flex;
+    justify-content: flex-end;
+    margin: 10px;
 }
 
 
@@ -125,4 +136,51 @@ h3{
 
     
 
+}
+
+#fotojuego3{
+
+    margin-left: 0%;
+    display: block;
+    width: 100%;
+    height:auto;
+    padding: 0%;
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+}
+
+
+
+#fotojuego4{
+
+    margin-left: 0%;
+    display: block;
+    width: 100%;
+    height:auto;
+    padding: 0%;
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+}
+
+
+
+#fotojuego5{
+
+    margin-left: 0%;
+    width: 100%;
+    height:auto;
+    padding: 0%;
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+}
+
+
+#fotojuego6{
+
+    margin-left: 0%;
+    width: 100%;
+    height:auto;
+    padding: 0%;
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
 }
