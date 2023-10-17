@@ -34,7 +34,9 @@ img{
     flex-direction: row;
     padding: 0%;
     font-family: 'Kanit','Maven Pro','Helvetica','Arial','sans-serif';
-    
+    font-weight: bold;
+    transition: 1s;
+    position: sticky;
 }
 
 #links{
@@ -86,6 +88,7 @@ h3{
     border-top-left-radius: 14px;
     border-top-right-radius: 14px;
 
+
     
 
 }
@@ -115,7 +118,10 @@ h3{
     font-weight: bold;
     margin-top: 0%;
     padding: 3%;
+    text-decoration: none;
 }
+
+
 
 #textojuego{
     font-family: 'Kanit', 'Maven Pro', Helvetica, Arial, sans-serif;
@@ -184,3 +190,82 @@ h3{
     border-top-left-radius: 14px;
     border-top-right-radius: 14px;
 }
+
+#trucosAside{
+    background-color: #0A90AB25;
+    border-color: black;
+    border-top: 10%;
+    border-style: dotted;
+    margin: 1%;
+    padding: 0%;
+    width: 30%;
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+    border-bottom-left-radius: 14px;
+    border-bottom-right-radius: 14px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 400px;
+
+}
+
+
+#tituloAside{
+
+    text-align: center;
+    font-family: 'Kanit', 'Maven Pro', Helvetica, Arial, sans-serif;
+    color: #0A91AB;
+}
+
+#tituloTruco{
+
+    font-family: 'Kanit', 'Maven Pro', Helvetica, Arial, sans-serif;
+    color: #FFC045;
+    font-weight: bold;
+    margin-top: 0%;
+    padding: 3%;
+    text-decoration: none;
+    text-align: center;
+
+
+}
+
+#textoTruco{
+    font-family: 'Kanit', 'Maven Pro', Helvetica, Arial, sans-serif;
+    text-align: center;
+
+}
+
+
+#seccion{
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+}
+
+
+#noticiasFlex{
+  width: 70%;
+  height: 500px;
+
+}
+
+#tituloNoticias{
+
+    text-align: center;
+    font-family: 'Kanit', 'Maven Pro', Helvetica, Arial, sans-serif;
+    color: #0A91AB;
+}
+
+
+#listaflex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+
+}
+
+
+
