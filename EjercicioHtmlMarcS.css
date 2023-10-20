@@ -3,12 +3,12 @@
 
 
 
-body{
+body {
     margin: 0%;
 
 }
 
-#icono{
+#icono {
     background-color: #0A91AB;
 
 
@@ -16,12 +16,12 @@ body{
 
 }
 
-#subtitulo{
+#subtitulo {
     padding-left: 2%;
 
 }
 
-img{
+img {
     margin-left: 33%;
     display: block;
     width: 30%;
@@ -31,47 +31,47 @@ img{
 }
 
 
-#top{
+#top {
 
     background-color: #FFC045;
     display: flex;
     justify-content: center;
     flex-direction: row;
     padding: 0%;
-    font-family: 'Kanit','Maven Pro','Helvetica','Arial','sans-serif';
+    font-family: 'Kanit', 'Maven Pro', 'Helvetica', 'Arial', 'sans-serif';
     font-weight: bold;
     transition: 1s;
     position: sticky;
-    top:0;
+    top: 0;
 }
 
-#links{
+#links {
     padding: 1%;
     margin: 1%;
 
 }
 
-#links:hover{
+#links:hover {
     color: #0A91AB;
-    
+
 
 }
 
-h3{
+h3 {
     color: #0A91AB;
     font-family: 'Kanit', 'Maven Pro', Helvetica, Arial, sans-serif;
 
 }
 
 
-#flex{
+#flex {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 
-#juego{
-    
+#juego {
+
     border-color: #FFC045;
     border-top: 10%;
     border-style: dotted;
@@ -84,7 +84,7 @@ h3{
     border-bottom-right-radius: 14px;
 }
 
-#fotojuego1{
+#fotojuego1 {
 
     margin-left: 0%;
     display: block;
@@ -95,30 +95,30 @@ h3{
     border-top-right-radius: 14px;
 
 
-    
+
 
 }
 
-#info{
+#info {
     padding: 10px 20px;
     background-color: #FFC045;
-    color:black;
+    color: black;
     text-decoration: none;
     border-radius: 5px;
 
-    
+
 }
 
 
-#infoborde{
+#infoborde {
 
-    display:flex;
+    display: flex;
     justify-content: flex-end;
     margin: 10px;
 }
 
 
-#titulojuego{
+#titulojuego {
     text-decoration: none;
     font-family: 'Kanit', 'Maven Pro', Helvetica, Arial, sans-serif;
     color: #FFC045;
@@ -126,38 +126,39 @@ h3{
     margin-top: 0%;
     padding: 3%;
 
-    
+
 }
 
 
 
-#textojuego{
+#textojuego {
     font-family: 'Kanit', 'Maven Pro', Helvetica, Arial, sans-serif;
     padding: 3%;
-    align-items:center;
+    align-items: center;
 
 
 }
-#fotojuego2{
+
+#fotojuego2 {
 
     margin-left: 0%;
     display: block;
     width: 100%;
-    height:auto;
+    height: auto;
     padding: 0%;
     border-top-left-radius: 14px;
     border-top-right-radius: 14px;
 
-    
+
 
 }
 
-#fotojuego3{
+#fotojuego3 {
 
     margin-left: 0%;
     display: block;
     width: 100%;
-    height:auto;
+    height: auto;
     padding: 0%;
     border-top-left-radius: 14px;
     border-top-right-radius: 14px;
@@ -165,12 +166,12 @@ h3{
 
 
 
-#fotojuego4{
+#fotojuego4 {
 
     margin-left: 0%;
     display: block;
     width: 100%;
-    height:auto;
+    height: auto;
     padding: 0%;
     border-top-left-radius: 14px;
     border-top-right-radius: 14px;
@@ -178,28 +179,28 @@ h3{
 
 
 
-#fotojuego5{
+#fotojuego5 {
 
     margin-left: 0%;
     width: 100%;
-    height:auto;
+    height: auto;
     padding: 0%;
     border-top-left-radius: 14px;
     border-top-right-radius: 14px;
 }
 
 
-#fotojuego6{
+#fotojuego6 {
 
     margin-left: 0%;
     width: 100%;
-    height:auto;
+    height: auto;
     padding: 0%;
     border-top-left-radius: 14px;
     border-top-right-radius: 14px;
 }
 
-#trucosAside{
+#trucosAside {
     background-color: #0A90AB25;
     border-color: black;
     border-top: 10%;
@@ -213,20 +214,20 @@ h3{
     border-bottom-right-radius: 14px;
     display: flex;
     flex-direction: column;
-    height: 1500px;
+    height: 1250px;
 
 }
 
 
-#tituloAside{
+#tituloAside {
 
     text-align: center;
     font-family: 'Kanit', 'Maven Pro', Helvetica, Arial, sans-serif;
     color: #0A91AB;
-    
+
 }
 
-#tituloTruco{
+#tituloTruco {
 
     font-family: 'Kanit', 'Maven Pro', Helvetica, Arial, sans-serif;
     color: #FFC045;
@@ -240,27 +241,27 @@ h3{
 
 }
 
-#textoTruco{
+#textoTruco {
     font-family: 'Kanit', 'Maven Pro', Helvetica, Arial, sans-serif;
     text-align: center;
 
 }
 
 
-#seccion{
+#seccion {
     display: flex;
     flex-direction: row;
     align-items: stretch;
 }
 
 
-#noticiasFlex{
-  width: 70%;
-  height: 500px;
+#noticiasFlex {
+    width: 70%;
+    height: 500px;
 
 }
 
-#tituloNoticias{
+#tituloNoticias {
 
     text-align: center;
     font-family: 'Kanit', 'Maven Pro', Helvetica, Arial, sans-serif;
@@ -268,7 +269,7 @@ h3{
 }
 
 
-#listaflex{
+#listaflex {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -276,8 +277,8 @@ h3{
 
 }
 
-#noticia{
-    
+#noticia {
+
     border-color: #FFC045;
     border-top: 10%;
     border-style: dotted;
@@ -291,7 +292,7 @@ h3{
 }
 
 
-#titulonoticia{
+#titulonoticia {
 
     font-family: 'Kanit', 'Maven Pro', Helvetica, Arial, sans-serif;
     color: #FFC045;
@@ -299,25 +300,158 @@ h3{
     margin-top: 0%;
     padding: 3%;
     text-decoration: none;
-    font-size:large;
+    font-size: large;
     text-align: center;
 
 
 
 }
 
-#barra{
+#barra {
 
     background-color: #FFC045;
     height: 5px;
     width: 98%;
     margin: 1%;
     border: 0px;
-    
 
 
+
+
+}
+
+#flexVertical {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+#flexROW {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    flex-direction: row;
+
+}
+
+#fotoRANKING {
+
+    margin-left: 100%;
+    margin-right: 100%;
+    width: 150px;
+    height: 150px;
+    padding: 0%;
+    border-radius: 100%;
+
+}
+
+#tituloRanking {
+
+    color: #0A91AB;
+    font-family: 'Kanit', 'Maven Pro', Helvetica, Arial, sans-serif;
+
+}
+
+#nombreUsuario {
+
+    color: #FFC045;
+    font-family: 'Kanit', 'Maven Pro', Helvetica, Arial, sans-serif;
+
+}
+
+#footer {
+    background-color: #8A8070;
+
+}
+
+#redesSociales{
+    justify-items: left,top;
     
+}
+
+#copyright{
+    justify-items: center,bottom;
+    text-align: center;
+    
+}
+
+#direccion{
+    text-align: right;
+    align-items:end ;
+    padding-right: 2%;
+}
+
+
+#tablaJuegos{
+    width: 50%;
+    height: 25%;
+
+
+}
+
+
+#flexListado{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+
+
+
+}
+
+
+#juegoListado{
+    display: flex;
+    border-color:black;
+    border-top: 10%;
+    border-style:groove;
+    margin: 1%;
+    padding: 0%;
+    width: 95%;
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+    border-bottom-left-radius: 14px;
+    border-bottom-right-radius: 14px;
+    justify-content: flex-start;
+    background-color:darkgray;
+    flex-direction: row;
+
 }
 
 
 
+#tituloJuegoListado{
+    text-decoration: none;
+    font-family: 'Kanit', 'Maven Pro', Helvetica, Arial, sans-serif;
+    color:#0A91AB;
+    font-weight: bold;
+    margin-top: 1%;
+    margin-left: 1%;
+    padding: 0%;
+    font-size: 35px;
+
+}
+
+#fotoJuegoListado{
+    width: 100%;
+    height: 100%;
+    justify-content: left;
+    padding: 1%;
+    margin: 1%;
+   
+}
+
+
+#flexColumna{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 30%;
+
+
+}
