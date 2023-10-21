@@ -399,6 +399,7 @@ h3 {
     flex-wrap: wrap;
     justify-content: center;
     flex-direction: column;
+    width: 100%;
 
 
 
@@ -420,38 +421,4 @@ h3 {
     justify-content: flex-start;
     background-color:darkgray;
     flex-direction: row;
-
-}
-
-
-
-#tituloJuegoListado{
-    text-decoration: none;
-    font-family: 'Kanit', 'Maven Pro', Helvetica, Arial, sans-serif;
-    color:#0A91AB;
-    font-weight: bold;
-    margin-top: 1%;
-    margin-left: 1%;
-    padding: 0%;
-    font-size: 35px;
-
-}
-
-#fotoJuegoListado{
-    width: 100%;
-    height: 100%;
-    justify-content: left;
-    padding: 1%;
-    margin: 1%;
-   
-}
-
-
-#flexColumna{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    width: 30%;
-
-
 }
