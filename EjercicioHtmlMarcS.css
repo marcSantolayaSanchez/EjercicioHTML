@@ -8,12 +8,17 @@ body {
 
 }
 
-#icono {
+#leader {
     background-color: #0A91AB;
+    padding: 0%;
+    
 
+}
 
-    padding: 1;
-
+#icono{
+    width: 10%;
+    text-align: center;
+    padding-left: 12%;
 }
 
 #subtitulo {
@@ -48,7 +53,8 @@ img {
 #links {
     padding: 1%;
     margin: 1%;
-
+    text-decoration: none;
+    color: black;
 }
 
 #links:hover {
@@ -93,10 +99,8 @@ h3 {
     padding: 0%;
     border-top-left-radius: 14px;
     border-top-right-radius: 14px;
-
-
-
-
+    border-bottom-left-radius: 14px;
+    border-bottom-right-radius: 14px;
 }
 
 #info {
@@ -105,6 +109,11 @@ h3 {
     color: black;
     text-decoration: none;
     border-radius: 5px;
+
+
+}
+#info:hover {
+    color:#0A91AB;
 
 
 }
@@ -129,6 +138,12 @@ h3 {
 
 }
 
+#titulojuego:hover {
+    color:#0A91AB;
+
+
+}
+
 
 
 #textojuego {
@@ -137,67 +152,6 @@ h3 {
     align-items: center;
 
 
-}
-
-#fotojuego2 {
-
-    margin-left: 0%;
-    display: block;
-    width: 100%;
-    height: auto;
-    padding: 0%;
-    border-top-left-radius: 14px;
-    border-top-right-radius: 14px;
-
-
-
-}
-
-#fotojuego3 {
-
-    margin-left: 0%;
-    display: block;
-    width: 100%;
-    height: auto;
-    padding: 0%;
-    border-top-left-radius: 14px;
-    border-top-right-radius: 14px;
-}
-
-
-
-#fotojuego4 {
-
-    margin-left: 0%;
-    display: block;
-    width: 100%;
-    height: auto;
-    padding: 0%;
-    border-top-left-radius: 14px;
-    border-top-right-radius: 14px;
-}
-
-
-
-#fotojuego5 {
-
-    margin-left: 0%;
-    width: 100%;
-    height: auto;
-    padding: 0%;
-    border-top-left-radius: 14px;
-    border-top-right-radius: 14px;
-}
-
-
-#fotojuego6 {
-
-    margin-left: 0%;
-    width: 100%;
-    height: auto;
-    padding: 0%;
-    border-top-left-radius: 14px;
-    border-top-right-radius: 14px;
 }
 
 #trucosAside {
@@ -236,7 +190,9 @@ h3 {
     padding: 3%;
     text-decoration: none;
     text-align: center;
-
+}
+#tituloTruco:hover {
+    color:#0A91AB;
 
 
 }
@@ -303,6 +259,9 @@ h3 {
     font-size: large;
     text-align: center;
 
+}
+#titulonoticia:hover {
+    color:#0A91AB;
 
 
 }
@@ -314,10 +273,29 @@ h3 {
     width: 98%;
     margin: 1%;
     border: 0px;
+}
+
+#infoNoticia {
+    padding: 10px 20px;
+    background-color: #FFC045;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
 
 
+}
+#infoNoticia:hover {
+    color:#0A91AB;
 
 
+}
+
+
+#infobordeNoticia {
+
+    display: flex;
+    justify-content:baseline;
+    margin: 10px;
 }
 
 #flexVertical {
@@ -406,7 +384,7 @@ h3 {
 }
 
 
-#juegoListado{
+#listadoJuego{
     display: flex;
     border-color:black;
     border-top: 10%;
@@ -422,3 +400,179 @@ h3 {
     background-color:darkgray;
     flex-direction: row;
 }
+
+
+#juegoListado {
+
+    border-color: #000000;
+    border-top: 10%;
+    border-style:groove;
+    margin: 2%;
+    padding: 0%;
+    width: 30%;
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+    border-bottom-left-radius: 14px;
+    border-bottom-right-radius: 14px;
+}
+
+#fotojuegoListado {
+
+    margin-left: 0%;
+    display: block;
+    width: 100%;
+    height: 10%;
+    padding: 0%;
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+    border-bottom-left-radius: 14px;
+    border-bottom-right-radius: 14px;
+}
+
+#titulojuegoListado {
+    text-decoration: none;
+    font-family: 'Kanit', 'Maven Pro', Helvetica, Arial, sans-serif;
+    color:#0A91AB;
+    font-weight:bolder;
+    margin-top: 0%;
+    padding: 3%;
+    text-align: center;
+    font-size: x-large;
+
+
+}
+
+#titulojuegoListado:hover {
+    color:#fff;
+
+
+}
+
+#textojuegoListado {
+    font-family: 'Kanit', 'Maven Pro', Helvetica, Arial, sans-serif;
+    padding: 3%;
+    text-align: center;
+   
+
+
+}
+
+.paginacion {
+	margin:20px 0;
+}
+
+.paginacion ul {
+	list-style:none;
+	text-align: center;
+}
+
+.paginacion ul li {
+	display:inline-block;
+	margin-right:10px;
+}
+
+.paginacion ul li a {
+	display:block;
+	padding:10px 20px;
+	color:#fff;
+	background:#8A8070;
+	text-decoration: none;
+}
+
+.paginacion ul li a:hover {
+	background:#FFC045;
+}
+
+.paginacion ul li .paginaActiva {
+	background:darkgray;
+	font-weight:bold;
+}
+
+#juegoDetalle {
+
+    margin: 2%;
+    padding: 0%;
+    width: 30%;
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+    border-bottom-left-radius: 14px;
+    border-bottom-right-radius: 14px;
+}
+
+
+#subtituloDetalle {
+    text-decoration: none;
+    font-family: 'Kanit', 'Maven Pro', Helvetica, Arial, sans-serif;
+    color: #FFC045;
+    font-weight: bold;
+    margin-top: 0%;
+    padding: 3%;
+    text-align: center;
+    font-size: x-large;
+
+}
+
+
+#fondoDetalle{
+    display: flex;
+    border-color:black;
+    border-top: 10%;
+    border-style:groove;
+    margin: 1%;
+    padding: 0%;
+    width: 95%;
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+    border-bottom-left-radius: 14px;
+    border-bottom-right-radius: 14px;
+    justify-content: flex-start;
+    background-color:aliceblue;
+    flex-direction: row;
+}
+
+
+#formulario{
+    width: 400px;
+    height: auto;
+    overflow: hidden;
+    border: 1px solid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 5px;
+    float: left;
+    
+}
+
+#mapa{
+    width: 450px;
+    height: auto;
+    overflow: hidden;
+    border: 1px solid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-left: 10%;
+    float: left;
+
+}
+#fondoFormulario{
+    display: flex;
+    border-color:black;
+    border-top: 10%;
+    border-style:groove;
+    margin: 1%;
+    padding: 0%;
+    width: 95%;
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+    border-bottom-left-radius: 14px;
+    border-bottom-right-radius: 14px;
+    justify-content: center;
+    background-color:aliceblue;
+    flex-direction: row;
+
+}
+
+
+
